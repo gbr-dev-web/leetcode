@@ -40,7 +40,8 @@ var isPalindrome = function(x) {
     for(let i = 0; i < exec; i++){
         let a = array[i]
         let b = array[(array.length - 1) - i]
-        if(a !== b) { return false }
+        let isEqual = a !== b  
+        if(isEqual) { return false }
     }
     return true
 };
