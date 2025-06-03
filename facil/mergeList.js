@@ -2,6 +2,7 @@ function ListNode(val, next = null) {
   this.val = val;
   this.next = next;
 }
+
 var mergeTwoLists = function (list1, list2) {
   // em resumo ele pega as duas listas itera infinintamente ate uma das listas serem null
   // verifica cada valor atual da lista ex. curr1.val < curr2.val
